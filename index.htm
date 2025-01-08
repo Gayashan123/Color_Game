@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick The Color</title>
+    <link rel="stylesheet" href="style.css">
+        </head>
+<body>
+    <h1>
+        Pick the color
+    </h1>
+
+    <div id="display">
+        Ready
+    </div>
+
+    <div id="picker">
+        <button ></button>
+        <button ></button>
+        <button ></button>
+        <button ></button>
+    </div>
+
+    <div>
+        <h4 id="count">0/10</h4>        
+    </div>
+
+    <!-- Start Dialog -->
+    <div id="startDialog" class="hiddens">
+        <div>
+            <h2>Game Menu</h2>
+            <input type="text" name="playerName" id="playerName" placeholder="Player Name">
+            <button id="startBtn">Start</button>
+            <button id="soreBoardBtn" >Score Board</button>
+        </div>
+    </div>
+
+    <!-- Score card -->
+    <div id="scoreCard" class="hiddens">
+        <div>
+            <h2>Score Board</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Player Name</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody id="scoreBoard">
+                    
+                </tbody>
+            </table>
+            <button id="backBtn">Back</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+
+    
+</body>
+</html>
